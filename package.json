@@ -1,6 +1,6 @@
 {
-  "name": "bulma",
-  "version": "0.9.0",
+  "name": "@pathscale/bulma-pull-2981-css-var-only",
+  "version": "0.9.1",
   "homepage": "https://bulma.io",
   "author": {
     "name": "Jeremy Thomas",
@@ -39,7 +39,7 @@
     "build": "npm run build:clean && npm run build:sass-vars",
     "build:clean": "rimraf css",
     "build:sass": "node build.js bulma.sass css/bulma.css --map --min",
-    "build:sass-vars": "node build.js bulma.sass css/bulma.themeable.css --themeable --full --map --min",
+    "build:sass-vars": "node build.js bulma.sass css/bulma.css --themeable --full --map --min",
     "build:rtl": "node build.js bulma.sass css/bulma-rtl.css --rtl --map --min",
     "test:theme": "node build.js test/sass/theme.sass test/output/theme.css bulma.sass --themeable",
     "deploy": "npm run build",
