@@ -36,7 +36,7 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "npm run build:clean && npm run build:sass && npm run build:rtl",
+    "build": "npm run build:clean && npm run build:sass-vars",
     "build:clean": "rimraf css",
     "build:sass": "node build.js bulma.sass css/bulma.css --map --min",
     "build:sass-vars": "node build.js bulma.sass css/bulma.themeable.css --themeable --full --map --min",
