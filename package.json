@@ -1,6 +1,6 @@
 {
   "name": "@pathscale/bulma-pull-2981-css-var-only",
-  "version": "0.9.1",
+  "version": "0.9.5",
   "homepage": "https://bulma.io",
   "author": {
     "name": "Jeremy Thomas",
@@ -8,9 +8,9 @@
     "url": "https://jgthms.com"
   },
   "description": "Modern CSS framework based on Flexbox",
-  "main": "bulma.sass",
+  "main": "css/bulma.css",
   "unpkg": "css/bulma.css",
-  "style": "bulma/css/bulma.min.css",
+  "style": "css/bulma.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jgthms/bulma.git"
@@ -44,7 +44,6 @@
     "test:theme": "node build.js test/sass/theme.sass test/output/theme.css bulma.sass --themeable",
     "deploy": "npm run build",
     "start": "npm run build:sass -- --watch",
-
     "rtl": "echo 'The rtl script has been deprecated use build:rtl instead' && npm run build:rtl --",
     "build-clean": "echo 'The build-clean script has been deprecated use build:clean instead' && npm run build:clean --",
     "build-sass": "echo 'The build-sass script has been deprecated use build:sass instead' && npm run build:sass --"
