@@ -411,18 +411,23 @@ $bulma_used_vars: ()
     @return $value
 
 @function vDarken($name, $amount)
+  @error "vDarken got called, avoid this since -h -s -l -a postfix variables were nuked"
   @return vAdjust($name, $lightness: -$amount)
 
 @function vLighten($name, $amount)
+  @error "vLighten got called, avoid this since -h -s -l -a postfix variables were nuked"
   @return vDarken($name, -$amount)
 
 @function vSaturate($name, $amount)
+  @error "vSaturate got called, avoid this since -h -s -l -a postfix variables were nuked"
   @return vAdjust($name, $saturation: $amount)
 
 @function vAlpha($name, $amount)
+  @error "vAlpha got called, avoid this since -h -s -l -a postfix variables were nuked"
   @return vAdjust($name, $alpha: $amount)
 
 @function vAlphaChange($name, $amount)
+  @error "vAlphaChange got called, avoid this since -h -s -l -a postfix variables were nuked"
   @return vChange($name, $alpha: $amount)
 
 @function maybeCalc($value, $increment)
@@ -443,6 +448,7 @@ $bulma_used_vars: ()
     @return $value
 
 @function vAdjust($name, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1)
+  @error "vAdjust got called, avoid this since -h -s -l -a postfix variables were nuked"
   @if getThemeable($name)
     @return hsla(maybeCalc(v(#{$name}-h), strip-unit($hue)), maybeCalc(v(#{$name}-s), $saturation), maybeCalc(v(#{$name}-l), $lightness), maybeCalcMult(v(#{$name}-a), $alpha))
   @else
@@ -458,6 +464,7 @@ $bulma_used_vars: ()
     @return scale_color(adjust_color($color, $hue: $hue, $saturation: $saturation, $lightness: $lightness), $alpha: $alpha)
 
 @function vChange($name, $hue: null, $saturation: null, $lightness: null, $alpha: null)
+  @error "VChange got called, avoid this since -h -s -l -a postfix variables were nuked"
   @if getThemeable($name)
     @if $hue == null
       $hue: v($name+"-h")
