@@ -366,7 +366,7 @@ $bulma_used_vars: ()
 
     $_: shorten-var($name)
     @if type-of($value) == "color"
-      $_: __register((#{$name}-h: round(strip-unit(hue($value))), #{$name}-s: round(saturation($value)), #{$name}-l: round(lightness($value)), #{$name}-a: round(opacity($value) * 100) / 100))
+      // $_: __register((#{$name}-h: round(strip-unit(hue($value))), #{$name}-s: round(saturation($value)), #{$name}-l: round(lightness($value)), #{$name}-a: round(opacity($value) * 100) / 100))
     @else if type-of($value) == "string"
       $value: str-replace($value, " ", "")
       @if str-index($value, "hsla(") == 1
@@ -380,11 +380,10 @@ $bulma_used_vars: ()
         @if isVColor($var)
           $_: __register((#{$name}-h: var(varName($var+"-h")), #{$name}-s: var(varName($var+"-s")), #{$name}-l: var(varName($var+"-l")), #{$name}-a: var(varName($var+"-a"))))
 
-  @if isRegistered($name+"-h")
-    $_: __register((#{$name}: unquote("hsla(#{var(varName($name+"-h"))}, #{var(varName($name+"-s"))}, #{var(varName($name+"-l"))}, #{var(varName($name+"-a"))})")))
-  @else
-    $_: __register(($name: $value))
-
+  // @if isRegistered($name+"-h")
+    // $_: __register((#{$name}: unquote("hsla(#{var(varName($name+"-h"))}, #{var(varName($name+"-s"))}, #{var(varName($name+"-l"))}, #{var(varName($name+"-a"))})")))
+  // @else
+  $_: __register(($name: $value))
   @return $value
 
 =register($name, $value, $default: false)
