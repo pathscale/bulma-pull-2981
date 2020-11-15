@@ -48,7 +48,7 @@
     &:nth-child(3)
       top: calc(50% + 4px)
   &:hover
-    background-color: vAlphaChange("scheme-invert", 0.05)
+    background-color: v("scheme-invert")
   // Modifers
   &.is-active
     span
@@ -220,7 +220,7 @@
   @extend %unselectable
   -moz-appearance: none
   -webkit-appearance: none
-  background-color: vAlpha("scheme-invert", 0.2)
+  background-color: v("scheme-invert")
   border: none
   border-radius: v("radius-rounded")
   cursor: pointer
@@ -256,9 +256,9 @@
     width: 2px
   &:hover,
   &:focus
-    background-color: vAlpha("scheme-invert", 0.3)
+    background-color: v("scheme-invert")
   &:active
-    background-color: vAlpha("scheme-invert", 0.4)
+    background-color: v("scheme-invert")
   // Sizes
   &.is-small
     height: 16px
