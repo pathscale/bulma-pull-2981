@@ -152,14 +152,14 @@ fieldset[disabled] .button.is-text {
 }
 
 .button.is-white:hover, .button.is-white.is-hovered {
-  background-color: var(--white-hover);
+  background-color: var(--blm-white-hov);
   border-color: transparent;
   color: var(--blm-white-inv);
 }
 
 .button.is-white:focus, .button.is-white.is-focused {
   border-color: transparent;
-  color: var(--white-focus);
+  color: var(--blm-white-foc);
 }
 
 .button.is-white:focus:not(:active), .button.is-white.is-focused:not(:active) {
@@ -167,7 +167,7 @@ fieldset[disabled] .button.is-text {
 }
 
 .button.is-white:active, .button.is-white.is-active {
-  background-color: var(--white-active);
+  background-color: var(--blm-white-act);
   border-color: transparent;
   color: var(--blm-white-inv);
 }
@@ -258,14 +258,14 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
 }
 
 .button.is-black:hover, .button.is-black.is-hovered {
-  background-color: var(--black-hover);
+  background-color: var(--blm-black-hov);
   border-color: transparent;
   color: var(--blm-black-inv);
 }
 
 .button.is-black:focus, .button.is-black.is-focused {
   border-color: transparent;
-  color: var(--black-focus);
+  color: var(--blm-black-foc);
 }
 
 .button.is-black:focus:not(:active), .button.is-black.is-focused:not(:active) {
@@ -273,7 +273,7 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
 }
 
 .button.is-black:active, .button.is-black.is-active {
-  background-color: var(--black-active);
+  background-color: var(--blm-black-act);
   border-color: transparent;
   color: var(--blm-black-inv);
 }
@@ -364,14 +364,14 @@ fieldset[disabled] .button.is-black.is-inverted.is-outlined {
 }
 
 .button.is-light:hover, .button.is-light.is-hovered {
-  background-color: var(--light-hover);
+  background-color: var(--blm-light-hov);
   border-color: transparent;
   color: var(--blm-light-inv);
 }
 
 .button.is-light:focus, .button.is-light.is-focused {
   border-color: transparent;
-  color: var(--light-focus);
+  color: var(--blm-light-foc);
 }
 
 .button.is-light:focus:not(:active), .button.is-light.is-focused:not(:active) {
@@ -379,7 +379,7 @@ fieldset[disabled] .button.is-black.is-inverted.is-outlined {
 }
 
 .button.is-light:active, .button.is-light.is-active {
-  background-color: var(--light-active);
+  background-color: var(--blm-light-act);
   border-color: transparent;
   color: var(--blm-light-inv);
 }
@@ -470,14 +470,14 @@ fieldset[disabled] .button.is-light.is-inverted.is-outlined {
 }
 
 .button.is-dark:hover, .button.is-dark.is-hovered {
-  background-color: var(--dark-hover);
+  background-color: var(--blm-dark-hov);
   border-color: transparent;
   color: var(--blm-dark-inv);
 }
 
 .button.is-dark:focus, .button.is-dark.is-focused {
   border-color: transparent;
-  color: var(--dark-focus);
+  color: var(--blm-dark-foc);
 }
 
 .button.is-dark:focus:not(:active), .button.is-dark.is-focused:not(:active) {
@@ -485,7 +485,7 @@ fieldset[disabled] .button.is-light.is-inverted.is-outlined {
 }
 
 .button.is-dark:active, .button.is-dark.is-active {
-  background-color: var(--dark-active);
+  background-color: var(--blm-dark-act);
   border-color: transparent;
   color: var(--blm-dark-inv);
 }
@@ -576,14 +576,14 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 
 .button.is-primary:hover, .button.is-primary.is-hovered {
-  background-color: var(--primary-hover);
+  background-color: var(--blm-prim-hov);
   border-color: transparent;
   color: var(--blm-prim-inv);
 }
 
 .button.is-primary:focus, .button.is-primary.is-focused {
   border-color: transparent;
-  color: var(--primary-focus);
+  color: var(--blm-prim-foc);
 }
 
 .button.is-primary:focus:not(:active), .button.is-primary.is-focused:not(:active) {
@@ -591,7 +591,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 
 .button.is-primary:active, .button.is-primary.is-active {
-  background-color: var(--primary-active);
+  background-color: var(--blm-prim-act);
   border-color: transparent;
   color: var(--blm-prim-inv);
 }
@@ -822,14 +822,14 @@ fieldset[disabled] .button.is-link.is-inverted.is-outlined {
 }
 
 .button.is-info:hover, .button.is-info.is-hovered {
-  background-color: var(--info-hover);
+  background-color: var(--blm-info-hov);
   border-color: transparent;
   color: var(--blm-info-inv);
 }
 
 .button.is-info:focus, .button.is-info.is-focused {
   border-color: transparent;
-  color: var(--info-focus);
+  color: var(--blm-info-foc);
 }
 
 .button.is-info:focus:not(:active), .button.is-info.is-focused:not(:active) {
@@ -837,7 +837,7 @@ fieldset[disabled] .button.is-link.is-inverted.is-outlined {
 }
 
 .button.is-info:active, .button.is-info.is-active {
-  background-color: var(--info-active);
+  background-color: var(--blm-info-act);
   border-color: transparent;
   color: var(--blm-info-inv);
 }
@@ -945,14 +945,14 @@ fieldset[disabled] .button.is-info.is-inverted.is-outlined {
 }
 
 .button.is-success:hover, .button.is-success.is-hovered {
-  background-color: var(--success-hover);
+  background-color: var(--blm-sucs-hov);
   border-color: transparent;
   color: var(--blm-sucs-inv);
 }
 
 .button.is-success:focus, .button.is-success.is-focused {
   border-color: transparent;
-  color: var(--success-focus);
+  color: var(--blm-sucs-foc);
 }
 
 .button.is-success:focus:not(:active), .button.is-success.is-focused:not(:active) {
@@ -960,7 +960,7 @@ fieldset[disabled] .button.is-info.is-inverted.is-outlined {
 }
 
 .button.is-success:active, .button.is-success.is-active {
-  background-color: var(--success-active);
+  background-color: var(--blm-sucs-act);
   border-color: transparent;
   color: var(--blm-sucs-inv);
 }
@@ -1068,14 +1068,14 @@ fieldset[disabled] .button.is-success.is-inverted.is-outlined {
 }
 
 .button.is-warning:hover, .button.is-warning.is-hovered {
-  background-color: var(--warning-hover);
+  background-color: var(--blm-warn-hov);
   border-color: transparent;
   color: var(--blm-warn-inv);
 }
 
 .button.is-warning:focus, .button.is-warning.is-focused {
   border-color: transparent;
-  color: var(--warning-focus);
+  color: var(--blm-warn-foc);
 }
 
 .button.is-warning:focus:not(:active), .button.is-warning.is-focused:not(:active) {
@@ -1083,7 +1083,7 @@ fieldset[disabled] .button.is-success.is-inverted.is-outlined {
 }
 
 .button.is-warning:active, .button.is-warning.is-active {
-  background-color: var(--warning-active);
+  background-color: var(--blm-warn-act);
   border-color: transparent;
   color: var(--blm-warn-inv);
 }
@@ -1191,14 +1191,14 @@ fieldset[disabled] .button.is-warning.is-inverted.is-outlined {
 }
 
 .button.is-danger:hover, .button.is-danger.is-hovered {
-  background-color: var(--danger-hover);
+  background-color: var(--blm-dang-hov);
   border-color: transparent;
   color: var(--blm-dang-inv);
 }
 
 .button.is-danger:focus, .button.is-danger.is-focused {
   border-color: transparent;
-  color: var(--danger-focus);
+  color: var(--blm-dang-foc);
 }
 
 .button.is-danger:focus:not(:active), .button.is-danger.is-focused:not(:active) {
@@ -1206,7 +1206,7 @@ fieldset[disabled] .button.is-warning.is-inverted.is-outlined {
 }
 
 .button.is-danger:active, .button.is-danger.is-active {
-  background-color: var(--danger-active);
+  background-color: var(--blm-dang-act);
   border-color: transparent;
   color: var(--blm-dang-inv);
 }
@@ -1755,26 +1755,41 @@ fieldset[disabled] .button {
   --blm-white-inv-s: var(--blm-black-s);
   --blm-white-inv-l: var(--blm-black-l);
   --blm-white-inv-a: var(--blm-black-a);
+  --blm-white-hov: 1;
+  --blm-white-foc: 1;
+  --blm-white-act: 1;
   --blm-black-inv: hsla(var(--blm-black-inv-h), var(--blm-black-inv-s), var(--blm-black-inv-l), var(--blm-black-inv-a));
   --blm-black-inv-h: var(--blm-white-h);
   --blm-black-inv-s: var(--blm-white-s);
   --blm-black-inv-l: var(--blm-white-l);
   --blm-black-inv-a: var(--blm-white-a);
+  --blm-black-hov: 1;
+  --blm-black-foc: 1;
+  --blm-black-act: 1;
   --blm-light-inv: hsla(var(--blm-light-inv-h), var(--blm-light-inv-s), var(--blm-light-inv-l), var(--blm-light-inv-a));
   --blm-light-inv-h: 0;
   --blm-light-inv-s: 0%;
   --blm-light-inv-l: 0%;
   --blm-light-inv-a: 0.7;
+  --blm-light-hov: 1;
+  --blm-light-foc: 1;
+  --blm-light-act: 1;
   --blm-dark-inv: hsla(var(--blm-dark-inv-h), var(--blm-dark-inv-s), var(--blm-dark-inv-l), var(--blm-dark-inv-a));
   --blm-dark-inv-h: 0;
   --blm-dark-inv-s: 0%;
   --blm-dark-inv-l: 100%;
   --blm-dark-inv-a: 1;
+  --blm-dark-hov: 1;
+  --blm-dark-foc: 1;
+  --blm-dark-act: 1;
   --blm-prim-inv: hsla(var(--blm-prim-inv-h), var(--blm-prim-inv-s), var(--blm-prim-inv-l), var(--blm-prim-inv-a));
   --blm-prim-inv-h: 0;
   --blm-prim-inv-s: 0%;
   --blm-prim-inv-l: 100%;
   --blm-prim-inv-a: 1;
+  --blm-prim-hov: 1;
+  --blm-prim-foc: 1;
+  --blm-prim-act: 1;
   --blm-prim-light: hsla(var(--blm-prim-light-h), var(--blm-prim-light-s), var(--blm-prim-light-l), var(--blm-prim-light-a));
   --blm-prim-light-h: 171;
   --blm-prim-light-s: 100%;
@@ -1805,6 +1820,9 @@ fieldset[disabled] .button {
   --blm-info-inv-s: 0%;
   --blm-info-inv-l: 100%;
   --blm-info-inv-a: 1;
+  --blm-info-hov: 1;
+  --blm-info-foc: 1;
+  --blm-info-act: 1;
   --blm-info-light: hsla(var(--blm-info-light-h), var(--blm-info-light-s), var(--blm-info-light-l), var(--blm-info-light-a));
   --blm-info-light-h: 204;
   --blm-info-light-s: 71%;
@@ -1820,6 +1838,9 @@ fieldset[disabled] .button {
   --blm-sucs-inv-s: 0%;
   --blm-sucs-inv-l: 100%;
   --blm-sucs-inv-a: 1;
+  --blm-sucs-hov: 1;
+  --blm-sucs-foc: 1;
+  --blm-sucs-act: 1;
   --blm-sucs-light: hsla(var(--blm-sucs-light-h), var(--blm-sucs-light-s), var(--blm-sucs-light-l), var(--blm-sucs-light-a));
   --blm-sucs-light-h: 141;
   --blm-sucs-light-s: 53%;
@@ -1835,6 +1856,9 @@ fieldset[disabled] .button {
   --blm-warn-inv-s: 0%;
   --blm-warn-inv-l: 0%;
   --blm-warn-inv-a: 0.7;
+  --blm-warn-hov: 1;
+  --blm-warn-foc: 1;
+  --blm-warn-act: 1;
   --blm-warn-light: hsla(var(--blm-warn-light-h), var(--blm-warn-light-s), var(--blm-warn-light-l), var(--blm-warn-light-a));
   --blm-warn-light-h: 48;
   --blm-warn-light-s: 100%;
@@ -1850,6 +1874,9 @@ fieldset[disabled] .button {
   --blm-dang-inv-s: 0%;
   --blm-dang-inv-l: 100%;
   --blm-dang-inv-a: 1;
+  --blm-dang-hov: 1;
+  --blm-dang-foc: 1;
+  --blm-dang-act: 1;
   --blm-dang-light: hsla(var(--blm-dang-light-h), var(--blm-dang-light-s), var(--blm-dang-light-l), var(--blm-dang-light-a));
   --blm-dang-light-h: 348;
   --blm-dang-light-s: 86%;

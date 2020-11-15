@@ -226,3 +226,8 @@ $sizes: v("size-1") v("size-2") v("size-3") v("size-4") v("size-5") v("size-6") 
   @each $var in $css_vars
     // Register in short map
     $_: shorten-var($var)
+
+@each $name in $colors-list
+  +register($name+"-hover", 1, true)
+  +register($name+"-active", 1, true)
+  +register($name+"-focus", 1, true)
