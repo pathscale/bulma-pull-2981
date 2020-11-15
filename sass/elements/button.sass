@@ -164,21 +164,21 @@ $button-static-border-color: v("border") !default
 
       &:hover,
       &.is-hovered
-        background-color: vDarken($name, 2.5%)
+        background-color: v($name+"-hover")
         border-color: transparent
         color: $color-invert
 
       &:focus,
       &.is-focused
         border-color: transparent
-        color: $color-invert
+        color: v($name+"focus")
 
         &:not(:active)
           box-shadow: v("button-focus-box-shadow-size") vAlphaChange($name, 0.25)
 
       &:active,
       &.is-active
-        background-color: vDarken($name, 5%)
+        background-color: v($name+"-active")
         border-color: transparent
         color: $color-invert
 
