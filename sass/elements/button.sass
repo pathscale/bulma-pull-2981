@@ -171,7 +171,7 @@ $button-static-border-color: v("border") !default
       &:focus,
       &.is-focused
         border-color: transparent
-        color: v($name+"-focus")
+        color: $color-invert
 
         &:not(:active)
           box-shadow: v("button-focus-box-shadow-size") vAlphaChange($name, 0.25)
