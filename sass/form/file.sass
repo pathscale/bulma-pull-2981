@@ -40,7 +40,7 @@ $file-name-max-width: 16em !default
       &:hover,
       &.is-hovered
         .file-cta
-          background-color: vDarken($name,  2.5%)
+          background-color: v($name+"-hover")
           border-color: transparent
           color: $color-invert
       &:focus,
@@ -52,7 +52,7 @@ $file-name-max-width: 16em !default
       &:active,
       &.is-active
         .file-cta
-          background-color: vDarken($name, 5%)
+          background-color: v($name+"-active")
           border-color: transparent
           color: $color-invert
   // Sizes
